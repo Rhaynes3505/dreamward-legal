@@ -30,15 +30,16 @@ footer{margin-top:48px;color:var(--muted);font-size:13px;border-top:1px solid va
 <h2>What we collect, and why</h2>
 <div class="table"><table><thead><tr><th>Data</th><th>Why</th><th>Where it goes</th></tr></thead><tbody>
 <tr><td>Email address</td><td>To sign in and back up your dreams</td><td>Supabase (our database host)</td></tr>
-<tr><td>Dreams and Logbook photos you back up (only when signed in)</td><td>To sync them and restore them on a new phone</td><td>Supabase</td></tr>
-<tr><td>Text, links and screenshots you send to the AI first mate</td><td>To turn them into dreams, plans and cost estimates</td><td>Our server, then Anthropic (the AI provider)</td></tr>
+<tr><td>Your name (if you add one) and your home port</td><td>To greet you and plan trips from where you live</td><td>Supabase, when you back up</td></tr>
+<tr><td>Dreams, plans, savings amounts and Logbook photos you back up (only when signed in)</td><td>To sync them and restore them on a new phone</td><td>Supabase</td></tr>
+<tr><td>What you give the AI first mate: your messages, links, screenshots and photos you add, your dreams and plans, and your home city and currency (only after you say yes in the app)</td><td>To turn them into dreams, plans and cost estimates</td><td>Our server, then Anthropic (the AI provider)</td></tr>
 <tr><td>Subscription status</td><td>To unlock Premium, Founding Member and Captain features</td><td>Apple and RevenueCat</td></tr>
 <tr><td>AI usage amounts</td><td>To keep monthly AI allowances fair</td><td>Supabase</td></tr>
 <tr><td>Scuttlebutt notes and optional screenshots</td><td>To read your feedback and fix bugs</td><td>Supabase</td></tr>
 <tr><td>Crash reports (error text, app version, phone model)</td><td>To find and fix crashes</td><td>Supabase</td></tr>
 <tr><td>IP address, kept only for the day</td><td>To stop spam on the feedback form</td><td>Supabase</td></tr>
 </tbody></table></div>
-<p>When the AI looks up real prices or seasons, it may search the web for the place you named. We don't send your name or email with AI requests. Place search suggestions come from OpenStreetMap (Photon); only the words you type in a place box are sent.</p>
+<p>When the AI looks up real prices or seasons, it may search the web for the place you named. We don't send your name or email with AI requests. The app asks your permission before anything goes to the AI, and you can turn it off any time in Me → Ship's settings → AI first mate. When you share a link, our server opens that page to read its preview (title, caption and picture). To find a cover picture for a dream, our server sends only the dream's name or place to Unsplash, Pexels or Wikipedia, never anything about you. Place search suggestions come from OpenStreetMap (Photon); only the words you type in a place box are sent.</p>
 <h2>Location</h2><p>If you allow it, the app uses your location to set your home port and sort dreams by distance. You can say no and type a home port instead.</p>
 <h2>The companies we use</h2><ul>
 <li><strong>Supabase</strong> stores accounts, backups, feedback and usage.</li>
