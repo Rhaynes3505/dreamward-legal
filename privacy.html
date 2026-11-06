@@ -36,17 +36,20 @@ footer{margin-top:48px;color:var(--muted);font-size:13px;border-top:1px solid va
 <tr><td>What you give the AI first mate: your messages, links, screenshots and photos you add, your dreams and plans, and your home city and currency (only after you say yes in the app)</td><td>To turn them into dreams, plans and cost estimates</td><td>Our server, then Anthropic (the AI provider)</td></tr>
 <tr><td>Subscription status</td><td>To unlock Premium, Founding Member and Captain features</td><td>Apple and RevenueCat</td></tr>
 <tr><td>AI usage amounts</td><td>To keep monthly AI allowances fair</td><td>Supabase</td></tr>
-<tr><td>Scuttlebutt notes and optional screenshots</td><td>To read your feedback and fix bugs</td><td>Supabase</td></tr>
-<tr><td>Crash reports (error text, app version, phone model)</td><td>To find and fix crashes</td><td>Supabase</td></tr>
-<tr><td>IP address, kept only for the day</td><td>To stop spam on the feedback form</td><td>Supabase</td></tr>
+<tr><td>Scuttlebutt notes and optional screenshots (with your email, if you're signed in, so we can reply)</td><td>To read your feedback and fix bugs</td><td>Supabase</td></tr>
+<tr><td>Crash reports (error text, app version, phone model, and your email if you're signed in)</td><td>To find and fix crashes</td><td>Supabase</td></tr>
+<tr><td>IP address, kept for a day or two</td><td>To stop spam and abuse of the feedback form, link previews and cover pictures</td><td>Supabase, then deleted automatically</td></tr>
+<tr><td>After you delete your account: a one-way scrambled code made from your email, with that month's AI usage amount (no email, no dreams)</td><td>So deleting and re-joining can't reset the monthly AI allowance</td><td>Supabase, until the month ends</td></tr>
 </tbody></table></div>
-<p>When the AI looks up real prices or seasons, it may search the web for the place you named. We don't send your name or email with AI requests. The app asks your permission before anything goes to the AI, and you can turn it off any time in Me → Ship's settings → AI first mate. When you share a link, our server opens that page to read its preview (title, caption and picture). To find a cover picture for a dream, our server sends only the dream's name or place to Unsplash, Pexels or Wikipedia, never anything about you. Place search suggestions come from OpenStreetMap (Photon); only the words you type in a place box are sent.</p>
+<p>When the AI looks up real prices or seasons, it may search the web for the place you named. We don't send your name or email with AI requests. The app asks your permission before anything goes to the AI, and you can turn it off any time in Me → Ship's settings → AI first mate. When you share a link, our server opens that page to read its preview (title, caption and picture). To find a cover picture for a dream, our server sends only the dream's name or place to Unsplash, Pexels or Wikipedia, never anything about you. Place search suggestions come from OpenStreetMap (Photon) and Open-Meteo; only the words you type in a place box are sent. If you allow location, your phone's coordinates are sent to BigDataCloud to name your city, and the weather on the map comes from Open-Meteo using the map's location. Neither gets your name or email.</p>
 <h2>Location</h2><p>If you allow it, the app uses your location to set your home port and sort dreams by distance. You can say no and type a home port instead.</p>
 <h2>The companies we use</h2><ul>
 <li><strong>Supabase</strong> stores accounts, backups, feedback and usage.</li>
 <li><strong>Anthropic</strong> runs the AI first mate. Under Anthropic's commercial terms, our AI requests aren't used to train their models.</li>
 <li><strong>RevenueCat</strong> and <strong>Apple</strong> handle subscriptions and payments. We never see your card details.</li>
-<li><strong>Apple Maps</strong> draws the map, and <strong>OpenStreetMap</strong> powers place search.</li></ul>
+<li><strong>Apple Maps</strong> draws the map, and <strong>OpenStreetMap</strong> and <strong>Open-Meteo</strong> power place search.</li>
+<li><strong>BigDataCloud</strong> turns your location into a city name (only if you allow location), and <strong>Open-Meteo</strong> provides the weather.</li>
+<li><strong>Unsplash</strong>, <strong>Pexels</strong> and <strong>Wikipedia</strong> provide cover pictures for dreams.</li></ul>
 <h2>Keeping and deleting your data</h2><p>You can delete your account in the app (Me → Abandon ship → Delete account). That removes your account and backed-up dreams and photos from our servers within 30 days. Deleted dreams sit in Recently deleted for 30 days on your phone, then they're gone. To ask for a copy or deletion of anything else, email <a href="mailto:dreamwardsupport@gmail.com">dreamwardsupport@gmail.com</a>.</p>
 <h2>Children</h2><p>DREAMWARD isn't made for children under 13, and we don't knowingly collect their data.</p>
 <h2>Changes and contact</h2><p>If this policy changes, we'll update the date above and mention big changes in the app. Questions: <a href="mailto:dreamwardsupport@gmail.com">dreamwardsupport@gmail.com</a>.</p>
