@@ -29,7 +29,8 @@ footer{margin-top:48px;color:var(--muted);font-size:13px;border-top:1px solid va
 <li>Your settings, like sounds and your home port.</li></ul>
 <h2>What we collect, and why</h2>
 <div class="table"><table><thead><tr><th>Data</th><th>Why</th><th>Where it goes</th></tr></thead><tbody>
-<tr><td>Email address</td><td>To sign in and back up your dreams</td><td>Supabase (our database host)</td></tr>
+<tr><td>Email address (or Apple's private relay address, if you use Sign in with Apple and choose to hide your email)</td><td>To sign in and back up your dreams</td><td>Supabase (our database host)</td></tr>
+<tr><td>A sign-in token from Apple (only if you use Sign in with Apple)</td><td>So we can disconnect DREAMWARD from your Apple ID when you delete your account</td><td>Supabase, deleted with your account</td></tr>
 <tr><td>Your name (if you add one) and your home port</td><td>To greet you and plan trips from where you live</td><td>Supabase, when you back up</td></tr>
 <tr><td>Dreams, plans, savings amounts and Logbook photos you back up (only when signed in)</td><td>To sync them and restore them on a new phone</td><td>Supabase</td></tr>
 <tr><td>What you give the AI first mate: your messages, links, screenshots and photos you add, your dreams and plans, and your home city and currency (only after you say yes in the app)</td><td>To turn them into dreams, plans and cost estimates</td><td>Our server, then Anthropic (the AI provider)</td></tr>
